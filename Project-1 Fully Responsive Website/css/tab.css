@@ -1,0 +1,45 @@
+
+/* CSS Code for Max-width: 1200px */
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+/* ----------------------------------------------------------- */
+/* Home section */
+#home{
+    padding: 10px;
+    height: 550px;
+    flex-direction: column;
+}
+#home::before{
+    height: 725px;
+}
+/* ----------------------------------------------------------- */
+/* Services Section */
+#services{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+/* ----------------------------------------------------------- */
+/* Clients section */
+#client-section{
+    margin-top: 15px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    height: 50px;
+}
+/* ----------------------------------------------------------- */
+/* Contact Us Section */
+#contact-box{
+    margin: auto;
+}
+/* ----------------------------------------------------------- */
+/* Utility Class */
+.h-primary{
+    font-size: 2.5rem;
+}
